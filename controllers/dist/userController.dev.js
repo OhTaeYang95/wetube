@@ -24,7 +24,7 @@ var logout = function logout(req, res) {
 exports.logout = logout;
 
 var users = function users(req, res) {
-  return res.send("Users");
+  return res.send("users");
 };
 
 exports.users = users;
